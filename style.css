@@ -91,90 +91,78 @@
 /* iPads (горизонтальная) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     /* стили */
-    body
-    {
+    body {
         width: 100%;
         margin: auto;
     }
-
     .wrapper {
         width: 100%;
     }
-
     TABLE {
         background: blanchedalmond; /* Цвет фона таблицы */
-        width: 100%
+        width: 100%;
+        height: 946px;
     }
     TD, TH {
-        padding: 5px; /* Поля вокруг текста */
-
+        height: 473px;
     }
 }
 
 /* iPads (вертикальная) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     /* стили */
-    body
-    {
+    body {
         width: 100%;
         margin: auto;
     }
-
     .wrapper {
         width: 100%;
     }
-
     TABLE {
         background: blanchedalmond; /* Цвет фона таблицы */
-        width: 100%
+        width: 100%;
+        height: 946px;
     }
     TD, TH {
-        padding: 5px; /* Поля вокруг текста */
-
+        height: 473px;
     }
 }
 
 /* iPad 3**********/
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
     /* стили */
-    body
-    {
+    body {
         width: 100%;
         margin: auto;
     }
-
     .wrapper {
         width: 100%;
     }
-
     TABLE {
         background: blanchedalmond; /* Цвет фона таблицы */
-        width: 100%
+        width: 100%;
+        height: 946px;
     }
     TD, TH {
-        padding: 5px; /* Поля вокруг текста */
-
+        height: 473px;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
     /* стили */
-    body
-    {
+    body {
         width: 100%;
         margin: auto;
     }
-
     .wrapper {
         width: 100%;
     }
-
     TABLE {
         background: blanchedalmond; /* Цвет фона таблицы */
-        width: 100%
+        width: 100%;
+        height: 946px;
     }
     TD, TH {
-        padding: 5px; /* Поля вокруг текста */
-
+        height: 473px;
     }
 }
 
