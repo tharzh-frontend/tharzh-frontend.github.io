@@ -1,83 +1,33 @@
-/*body {
-    font-family: Century Gothic;
-    background-color: white;
-    background-position: center center;
-    background-attachment: fixed;
-    color: black;
+@media screen and (max-width: 380px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 100% 100%;
+        grid-template-rows: 100% 100%;
+        background: floralwhite;
+    }
+
+    .wrapper {
+        width: 100%;
+        padding-bottom: 56.25%;
+        position: relative;
+    }
+
+    .wrapper > div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
 }
 
-h1 {
-    color: white;
-    width: 50%;
-    margin: 20px auto;
-    font-size: 50px;
-}
+/***************************************************************************************/
 
-a {
-    text-decoration: none;
-    font-weight: bold;
-    text-align: center;
-}
-
-a:hover {
-}
-
-.all {
-    width: 50%;
-    height: 150px;
-    margin: 0px 170px;
-}
-
-.container {
-    width: 100%;
-    max-width: 1024px;
-    padding: 0 15px;
-    margin: 0 auto;
-    background: floralwhite;
-    padding: 10px;
-}
-
-.top {
-    color: white;
-    background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);
-    padding: 10px;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
-
-.text_top {
-    font-size: 30px;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    letter-spacing: 2px;
-    font-size: 27px;
-    text-transform: uppercase;
-}
-
-nav {
-    float: right;
-    color: white;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    color: white;
-}
-nav li {
-    display: inline-block;
-    color: white;
-}
-
-.container:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-*/
-
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 2748px) {
     .wrapper {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -86,15 +36,9 @@ nav li {
         background: floralwhite;
     }
 
-    /*
-    .wrapper {
-        width: 100%;
-        padding-bottom: 5px;
-
-    }*/
     body {
         width: 36%;
-        margin: 8px auto;
+        margin: auto;
     }
 
     .wrapper {
@@ -103,31 +47,6 @@ nav li {
         position: relative;
     }
 
-    /*
-    .pic1 {
-        width: 100%;
-        padding-bottom: 56.25%;
-        position: relative;
-        overflow: hidden;
-    }
-    .pic2 {
-        width: 100%;
-        padding-bottom: 56.25%;
-        position: relative;
-        overflow: hidden;
-    }
-    .pic3 {
-        width: 100%;
-        padding-bottom: 56.25%;
-        position: relative;
-        overflow: hidden;
-    }
-    .pic4 {
-        width: 100%;
-        padding-bottom: 56.25%;
-        position: relative;
-        overflow: hidden;
-    }*/
     .wrapper > div {
         position: absolute;
         top: 0;
