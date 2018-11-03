@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: Century Gothic;
     background-color: white;
     background-position: center center;
@@ -30,17 +30,14 @@ a:hover {
 
 .container {
     width: 100%;
-    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
-    /*height: 50px;*/
+    max-width: 1024px;
     padding: 0 15px;
     margin: 0 auto;
-    background: floralwhite; /* Для старых браузров */
-    /*background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);*/
+    background: floralwhite;
     padding: 10px;
 }
 
 .top {
-    /*float: left;*/
     color: white;
     background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);
     padding: 10px;
@@ -68,7 +65,7 @@ nav ul {
     color: white;
 }
 nav li {
-    display: inline-block; /*один из способов разместить элементы в строку*/
+    display: inline-block;
     color: white;
 }
 
@@ -77,22 +74,38 @@ nav li {
     display: table;
     clear: both;
 }
-
+*/
 .wrapper {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    /*max-width: 1024px;*/
+    background: floralwhite;
+}
+/*
+.wrapper {
+    width: 100%;
+    padding-bottom: 5px;
+    overflow: hidden;
+}*/
 
-    width: 100em;
-    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
-    /*height: 50px;*/
-    margin: 0 auto;
-    background: floralwhite; /* Для старых браузров */
-    /*background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);*/
+body {
+    width: 36%;
+    margin: 8px auto;
 }
 
-.wrapper {
-    width: 640px;
-    height: 1136px;
-    overflow: hidden;
+div.stretchy-wrapper {
+    width: 100%;
+    padding-bottom: 56.25%;
+    position: relative;
+    background: blue;
+}
+
+div.stretchy-wrapper > div {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+
+    color: white;
+    font-size: 24px;
+    text-align: center;
 }
