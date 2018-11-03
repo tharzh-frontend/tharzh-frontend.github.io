@@ -1,4 +1,4 @@
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 480px) {
     .wrapper {
         display: grid;
         grid-template-columns: 100% 100%;
@@ -8,7 +8,7 @@
 
     .wrapper {
         width: 100%;
-        padding-bottom: 56.25%;
+        /*padding-bottom: 56.25%;*/
         position: relative;
     }
 
