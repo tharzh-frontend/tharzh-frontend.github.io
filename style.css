@@ -83,7 +83,8 @@ nav li {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
 
-    width: 100%;
+    width: 100em;
+    height: 50em;
     max-width: 1024px; /*максимальная ширина может иметь другое значение*/
     /*height: 50px;*/
     padding: 0 15px;
