@@ -84,14 +84,15 @@ nav li {
     grid-template-rows: 50% 50%;
 
     width: 100em;
-    height: 50em;
     max-width: 1024px; /*максимальная ширина может иметь другое значение*/
     /*height: 50px;*/
-    padding: 0 15px;
     margin: 0 auto;
     background: floralwhite; /* Для старых браузров */
     /*background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);*/
-    padding: 10px;
+}
 
-
+.wrapper {
+    width: 640px;
+    height: 1136px;
+    overflow: hidden;
 }
