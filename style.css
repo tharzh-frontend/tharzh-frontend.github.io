@@ -1,0 +1,96 @@
+body {
+    font-family: Century Gothic;
+    background-color: white;
+    background-position: center center;
+    background-attachment: fixed;
+    color: black;
+}
+
+h1 {
+    color: white;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover {
+}
+
+.all {
+    width: 50%;
+    height: 150px;
+    margin: 0px 170px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    /*height: 50px;*/
+    padding: 0 15px;
+    margin: 0 auto;
+    background: floralwhite; /* Для старых браузров */
+    /*background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);*/
+    padding: 10px;
+}
+
+.top {
+    /*float: left;*/
+    color: white;
+    background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);
+    padding: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+
+.text_top {
+    font-size: 30px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+    color: white;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+
+    width: 100%;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    /*height: 50px;*/
+    padding: 0 15px;
+    margin: 0 auto;
+    background: floralwhite; /* Для старых браузров */
+    /*background: repeating-linear-gradient(130deg, deeppink, blueviolet, darkslateblue);*/
+    padding: 10px;
+
+
+}
